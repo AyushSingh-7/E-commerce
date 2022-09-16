@@ -42,97 +42,4 @@ This Full stack project has various functionalities like:<br>
   
   
   	
-	
-E-commerce Documentation 
 
-Microservices: 
-service 1 - login service 
-service 2 - catalogue service ( products) 
-service 3 - orders & cart service 
-service 4 - search 
-service 5 - Merchant 
-   
-Schema: 
-Products: (MySQL) 
-Id - pk 
-Name 
-Merchant id 
-Catalog Name 
-Category Name 
-Price 
-Strike price 
-Usp 
-Description  
-Quantity 
-Rating 
-Rating count 
-attributes  - one to many 
-Image - link   
-   
-Merchant: (MySQL) 
-Id - pk 
-Name 
-Rating 
-Total products 
-Sold products(orders) 
-   
-Orders: (MySQL) 
-Id - pk 
-cart id - fk 
-Bill-amount 
-Rating 
-   
-Customer: (MongoDB) 
-Customer Id - string 
-Name 
-Email Id 
-Address 
-Contact number   
-   
-Cart: (MongoDB) 
-Cart Id 
-Product Id  
-Customer Id 
-Quantity 
-Incart 
-Billing Amount 
- 
-Search: Elastic Search 
-   
-Authentication: (MySQL) 
-Email Id 
-Password 
-isMerchant – boolean 
-isCustomer- boolean   
-List of pages 
-   
-iOS, UI and android (Customer side) 
-1. Home page  
-2. Login page  
-3. SignUp page  
-4. Product List page  
-5. Product details page  
-6. Cart  
-7. Conformance of order  
-   
-UI (Merchant side) 
-1. Home Page  
-2. Form page  
-3. Submission successful page  
-   
-API Calls 
-1. Product list fetching (GET) - products and merchant   
-2. Search (Elastic search) - search  
-3. Registering a new customer (POST) - login  
-4. Registering a new product by merchant (POST) - login  
-5. Updating the cart (GET) - orders and carts   
-6. Adding to the cart (POST) - orders and carts   
-7. Sending confirmation Email - orders and carts  
- 
- 
- 
-Catalog: 
- 
-1. Electronics:  TV    Mobile Phones   AC   Washing Machine   Kitchen Appliances      
-2. Sports:  Cricket   Badminton   Swimming   Football   Skating      
-3. Furniture:  Bed   Sofa   Dining Table   Bean bags   Wardrobes    
